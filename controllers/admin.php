@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 		$data['browse_product']=$this->product_m->caridata();
 		$data['browse_category']=$this->product_m->tampilcategory();
 		$data['admin']="tproduct_v";
-        $this->load->view('admin_v',$data);
+        	$this->load->view('admin_v',$data);
 	}
 	
 }
